@@ -1,0 +1,39 @@
+
+
+#main-header {
+    background-color:#d32f2f  ;
+    border-bottom: solid 3px black;
+}
+
+#username {
+    margin: 0;
+    padding-bottom: 5px;   
+    box-sizing: border-box;
+    border-bottom: 1px solid #dfdfdf;
+}
+#avatar {
+    margin-top:5px;
+
+}
+
+#search-form {
+    margin: 5px;
+}
+
+#main-header h1{
+    margin: 0;
+    padding: 10px;
+    font-weight: 600;
+    color: white ;
+}
+
+
+ /* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #d32f2f !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 2px solid #d32f2f !important;
+    box-shadow: 0 1px 0 0 #d32f2f !important;
+  }
