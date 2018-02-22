@@ -4,7 +4,7 @@ function buildList(reposUrl){
   method:'get',
   headers:
   {
-    'Authorization': 'Bearer 6c68fedf21ec35b834192ffc5c2c1ef7c4e6f0b3'
+    // 'Authorization': 'Bearer <api key here>'
   }
 })
  .then(res => res.json())
@@ -48,7 +48,7 @@ document.getElementById("search-form").addEventListener("submit", (e) =>{
       method:'get',
       headers:
       {
-        'Authorization': 'Bearer 6c68fedf21ec35b834192ffc5c2c1ef7c4e6f0b3'
+        // 'Authorization': 'Bearer <api key here>'
       }
     }) 
     .then((resp) => resp.json()) 
